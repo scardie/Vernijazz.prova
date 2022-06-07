@@ -15,9 +15,17 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 .intro-text{text-transform: uppercase; font-size: 20px; font-weight: bold;}
 
-.button{padding: 18px 20px; background:  #6706A5; color: #FCF7DF; display: inline-block; border-radius: 4px;
+.button{font-family: 'Fira Sans', sans-serif;
+  
+  padding: 18px 20px; 
+  background:  #6706A5; 
+  color: #FCF7DF; 
+  display: inline-block; 
+  border-radius: 4px;
 
 }
+
+
 
 
 }
@@ -52,12 +60,12 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 
 .logo{z-index: 1;
-  border: solid red;
+  
 
 
 }
 
-nav{
+nav{font-family: 'Fira Sans', sans-serif;
 transform: translateX(30%);
 width: 100%;
 z-index: 0;
@@ -107,9 +115,9 @@ nav li a{
   height: 100vh;
   display: flex; width: 100%;align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9)),
-  url('jazz.jpg') no-repeat center center ;
+  url('jazz.jpeg') no-repeat center center;
   background-size: cover;
-  ;
+
 }
 
 #arrow {
