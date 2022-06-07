@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 .intro-text{text-transform: uppercase; font-size: 20px; font-weight: bold;}
 
-.button{padding: 18px 20px; background:  #6706A5; color: #fff; display: inline-block; border-radius: 4px;
+.button{padding: 18px 20px; background:  #6706A5; color: #FCF7DF; display: inline-block; border-radius: 4px;
 
 }
 
@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 .logo{z-index: 1;
   border: solid red;
 
+
 }
 
 nav{
@@ -69,7 +70,7 @@ z-index: 0;
 nav li {display: inline-block;}
 nav li a{
 
-  color: #E5DECA;
+  color: #FCF7DF;
   padding: 20px;
   display: block;
   font-size: 25px;
@@ -99,7 +100,7 @@ nav li a{
   right: 30px;
 }
 
-.hamburger span{background: #fff; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
+.hamburger span{background: #FCF7DF; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
 
 }
 /* ! Hero */
@@ -113,6 +114,10 @@ nav li a{
 
 }
 
+#arrow {
+
+
+}
 
 
 .hero_content{
@@ -130,7 +135,7 @@ nav li a{
 
 
 .hero_content h1,
-.hero_content p{color: #fff;}
+.hero_content p{color: #FCF7DF;}
 
 
 
@@ -139,11 +144,9 @@ nav li a{
 section{
 
 display: flex;
-height: 55vh;
-border: solid #E5DECA;
-border-width: 10px;
+height: 100vh;
 width: 100%;
-background: url('jazz.nav.png') no-repeat center center;
+background: #FCF7DF ;
 background-size: cover;
  
 
@@ -151,41 +154,20 @@ background-size: cover;
 
 }
 
-.section_content{
 
-display: flex;
-text-align: center;
-margin: 30px;
-padding: 50px;
-background:  #6706A5;
-border: solid #E5DECA;
-border-width: 3px;
+.section_content {
 
-}
-
-
-.section_content h2{
-padding: 5px;
-color: #E5DECA;
-height: 9vh;
-text-align: center;
-
- 
-}
-
-.section_content p{
-
-padding: 20px;
-color: #E5DECA;
-font-size: 18px;
-height: 15vh;
-
+  padding: 30px;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 
 
-
-
+.section_content h1,
+.section_content p{color: #6706A5;}
 
 
 
