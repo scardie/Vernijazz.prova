@@ -1,7 +1,7 @@
 /* ! Base Style */
 
 
-body {font-family: 'Inter', sans-serif;font-size: 16px;}
+body {font-family: 'Merriweather', serif;font-size: 16px;}
 
 
 a{text-decoration: none;}
@@ -53,7 +53,10 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 
 
-.logo{z-index: 1}
+.logo{z-index: 1;
+  border: solid red;
+
+}
 
 nav{
 transform: translateX(30%);
@@ -162,13 +165,12 @@ border-width: 3px;
 
 
 .section_content h2{
- 
-border: solid #fff;
 padding: 5px;
 color: #E5DECA;
+height: 9vh;
+text-align: center;
 
-;
-
+ 
 }
 
 .section_content p{
@@ -176,8 +178,10 @@ color: #E5DECA;
 padding: 20px;
 color: #E5DECA;
 font-size: 18px;
+height: 15vh;
 
 }
+
 
 
 
