@@ -20,8 +20,6 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 }
 
 
-
-
 }
 
 @media (max-width: 768px){
@@ -109,9 +107,9 @@ nav li a{
   height: 100vh;
   display: flex; width: 100%;align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9)),
-  url('jazz.jpeg') no-repeat center center;
+  url('jazz.jpg') no-repeat center center ;
   background-size: cover;
-
+  ;
 }
 
 #arrow {
