@@ -1,7 +1,7 @@
 /* ! Base Style */
 
 
-body {font-family: 'Merriweather', serif;font-size: 16px;}
+body {font-family: 'Source Serif Pro', serif; font-size: 16px;}
 
 
 a{text-decoration: none;}
@@ -14,16 +14,6 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 .small-text{font-size: 14px;}
 
 .intro-text{text-transform: uppercase; font-size: 20px; font-weight: bold;}
-
-.button{font-family: 'Fira Sans', sans-serif;
-  
-  padding: 18px 20px; 
-  background:  #6706A5; 
-  color: #FCF7DF; 
-  display: inline-block; 
-  border-radius: 4px;
-
-}
 
 
 
@@ -60,12 +50,12 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 
 .logo{z-index: 1;
-  
 
 
 }
 
-nav{font-family: 'Fira Sans', sans-serif;
+
+nav {font-family: 'Fira Sans', sans-serif;
 transform: translateX(30%);
 width: 100%;
 z-index: 0;
@@ -76,7 +66,7 @@ z-index: 0;
 nav li {display: inline-block;}
 nav li a{
 
-  color: #FCF7DF;
+  color: #FFFFF0;
   padding: 20px;
   display: block;
   font-size: 25px;
@@ -91,7 +81,7 @@ nav li a{
 @media (max-width: 768px) {
 
 
-.nav{position: absolute; top: 0; right: -100%; background: #000; height: 100vh; padding-top: 80px;}
+.nav{position: absolute; top: 0; right: -100%; background: #FFFFF0; height: 100vh; padding-top: 80px;}
 .nav li{display: block;}
 .nav li a{padding:15px 30px; font-size:20px }
 
@@ -106,7 +96,7 @@ nav li a{
   right: 30px;
 }
 
-.hamburger span{background: #FCF7DF; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
+.hamburger span{background: #FFFFF0; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
 
 }
 /* ! Hero */
@@ -115,20 +105,13 @@ nav li a{
   height: 100vh;
   display: flex; width: 100%;align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0, 0.9)),
-  url('jazz.jpeg') no-repeat center center;
+  url('jazz.jpg') no-repeat center center ;
   background-size: cover;
-
 }
 
-#arrow {
-
-
-}
 
 
 .hero_content{
-
-
   padding: 30px;
   width: 100%;
   max-width: 1350px;
@@ -139,43 +122,97 @@ nav li a{
 
 }
 
+/*main {overflow: hidden}*/
 
-.hero_content h1,
-.hero_content p{color: #FCF7DF;}
+.hero_content h1 {color:#FFFFF0;}
 
 
+.freccia{ position: relative; top:300px; left: 520px; }
 
 /*! Section */
 
 section{
 
+
 display: flex;
 height: 100vh;
 width: 100%;
-background: #FCF7DF ;
+background: #FFFFF0 ;
 background-size: cover;
- 
+ align-items: center;
 
 
 
 }
 
 
-.section_content {
 
-  padding: 30px;
-  width: 100%;
-  max-width: 1350px;
-  margin: 0 auto;
-  padding: 30px;
+
+
+
+
+
+.box      { position: relative;
+            height:400 px
+            top:200px;
+           left:-2200px;
+           padding: 30px;
+           width: 100%;
+           max-width: 1350px;
+           margin: 0 auto;
+           padding: 30px;}
+                     
+.box h2             {position: relative;
+                     font-size:60px; 
+                     font-weight: bold;
+                     color: #330066;
+                     top: 20px;
+                     
+                     
+                     padding-bottom: 5px;
+                     margin: 0 auto;
+                     width: 800px;
+                }                    
+                  
+.box p              {
+                    color: #330066; 
+                    font-size: 25px;
+                    position: relative;
+                    top:30px;
+                    ;
+                    
+                    margin-left: 440px;
+                    margin-right: 20px;
+                    
+
+                                  
+
+                                  }
+
+.button{font-family: 'Fira Sans', sans-serif; padding: 18px 20px; background:  #330066; color: #FFFFF0; display: inline-block; border-radius: 4px; position: relative; left: 900px; top:-100px;
+
 }
 
+.sign { position: relative; left:100px;bottom: 30px; }
 
 
-.section_content h1,
-.section_content p{color: #6706A5;}
+.mdsign{position: relative;
+        left:30px ;top: -235px;}
 
+.cpsign{position: relative;
+        left:100px ;top:-200px;}
 
+.efsign{position: relative;
+        left: 120px; top: -250px;}
+
+.lasign{position: relative;
+        left: -1100px; top: 175px;}
+
+.absign{position: relative;
+        left: -1050px; top: 230px;}
+
+.dbsign{position: relative;
+        left: -950px; top: 250px;}
 
 *,
 *:before,
