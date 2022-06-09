@@ -1,7 +1,7 @@
 /* ! Base Style */
 
 
-body {font-family: 'Merriweather', serif;font-size: 16px;}
+body {font-family: 'Source Serif Pro', serif;font-size: 16px;}
 
 
 a{text-decoration: none;}
@@ -15,17 +15,21 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 .intro-text{text-transform: uppercase; font-size: 20px; font-weight: bold;}
 
-.button{font-family: 'Fira Sans', sans-serif;-->
+.button{font-family: 'Fira Sans', sans-serif;
   
   padding: 18px 20px; 
-  background:  #6706A5; 
-  color: #FCF7DF; 
-  display: inline-block; 
+  background:  #330066; 
+  position: absolute;
   border-radius: 4px;
+  bottom: -560px;
+  right: 120px;
+
 
 }
 
-
+.button a{
+  color: #FFFFF0;
+}
 
 
 }
@@ -77,13 +81,46 @@ nav li {display: inline-block;}
 nav li a{
   position: relative;
   top: 10px;
-  color: #FCF7DF;
+  color: #FFFFF0;
   padding: 20px;
   display: block;
   font-size: 25px;
 }
 
+
 .hamburger{display:none;}
+
+
+
+
+/*STILE DOPO SCORRIMENTO*/
+
+
+.scrolling-active{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -107,7 +144,7 @@ nav li a{
   right: 30px;
 }
 
-.hamburger span{background: #FCF7DF; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
+.hamburger span{background: #FFFFF0; height: 3px; width: 100%; display: block; margin-bottom: 5px;}
 
 }
 /* ! Hero */
@@ -142,7 +179,7 @@ nav li a{
 
 
 .hero_content h1,
-.hero_content p{color: #FCF7DF;}
+.hero_content p{color: #FFFFF0;}
 
 
 
@@ -153,7 +190,7 @@ section{
 display: flex;
 height: 100vh;
 width: 100%;
-background: #FCF7DF ;
+background: #FFFFF0 ;
 background-size: cover;
  
 
@@ -167,15 +204,15 @@ background-size: cover;
  position: relative;
  text-align: right;
  height: 400px;
- top: 200px;
- padding-left: 30px;
+ top: 250px;
+ padding-left: 100px;
  padding-right: 30px;
  padding-top: 20px;
- margin-left: 40px;
+ margin-left: 150px;
  margin-right: 20px;
  max-width: 1350px;
 
- border: solid green;
+
 
   
 
@@ -184,31 +221,97 @@ background-size: cover;
 
 
 .box1 h2{
-  color: #6706A5;
+  color: #330066;
+
 }
 
 
 .box1 p{
 
-color: #6706A5;
-line-height:1.4;
-border: solid red;
+font-size: 25px;
+color: #330066;
+line-height:1;
 position: relative;
-ma
+height: 220px;
+margin: 0 auto;
+width: 400px;
+margin-right: 20px;
+padding-left: 78px;
+
 
 }
 
 
 
+/*! FIRME*/
+
+
+                                 
+.mdsign { position: absolute; bottom: -350px;}
+.cpsign {position: absolute; right: 500px; bottom: -300px ;}
+.efsign {position: absolute; bottom: -750px; left: -50px;}
+.lasign {position: absolute;  bottom: -700px; right: 600px;    }
+.absign {position: absolute;  bottom: -750px; right: -10px; }
+.dbsign {position: absolute;  bottom: -250px;right: -10px;}
 
 
 
+/* !PANORAMICA*/
 
 
 
+.hero2{
+  height: 100vh;
+  display: flex; width: 100%;align-items: center;
+  background: #330066;
+  background-size: cover;
+}
 
 
 
+.hero_content2{
+  padding: 30px;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
+
+
+
+}
+
+
+
+.hero_content2 h1 {color:#FFFFF0;}
+
+
+
+/*! PLAYLIST*/
+
+
+.hero3{
+  height: 100vh;
+  display: flex; width: 100%;align-items: center;
+  background: #330066;
+  background-size: cover;
+}
+
+
+
+.hero_content3{
+  padding: 30px;
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 30px;
+
+
+
+}
+
+
+
+.hero_content3 h1 {color:#FFFFF0;}
 
 
 
