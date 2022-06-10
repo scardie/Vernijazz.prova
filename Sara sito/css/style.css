@@ -21,8 +21,8 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
   background:  #330066; 
   position: absolute;
   border-radius: 4px;
-  bottom: -560px;
-  right: 120px;
+  bottom: -400px;
+  right: 150px;
 
 
 }
@@ -96,9 +96,6 @@ nav li a{
 /*STILE DOPO SCORRIMENTO*/
 
 
-.scrolling-active{
-
-}
 
 
 
@@ -158,10 +155,7 @@ nav li a{
 
 }
 
-#arrow {
 
-
-}
 
 
 .hero_content{
@@ -181,7 +175,7 @@ nav li a{
 .hero_content h1,
 .hero_content p{color: #FFFFF0;}
 
-
+.freccia{ position: relative; top:300px; left: 520px; }
 
 /*! Section */
 
@@ -204,7 +198,7 @@ background-size: cover;
  position: relative;
  text-align: right;
  height: 400px;
- top: 250px;
+ top: 300px;
  padding-left: 100px;
  padding-right: 30px;
  padding-top: 20px;
@@ -220,23 +214,26 @@ background-size: cover;
 
 
 
-.box1 h2{
+.box h2{
   color: #330066;
+  padding-bottom: 5px;
 
 }
 
 
-.box1 p{
+.box p{
+
 
 font-size: 25px;
 color: #330066;
 line-height:1;
 position: relative;
-height: 220px;
-margin: 0 auto;
+height: 150px;
 width: 400px;
-margin-right: 20px;
-padding-left: 78px;
+margin-right: 0px;
+margin-left: 326px;
+padding-left: 95px;
+right: -20px;
 
 
 }
@@ -246,11 +243,12 @@ padding-left: 78px;
 /*! FIRME*/
 
 
-                                 
-.mdsign { position: absolute; bottom: -350px;}
-.cpsign {position: absolute; right: 500px; bottom: -300px ;}
-.efsign {position: absolute; bottom: -750px; left: -50px;}
-.lasign {position: absolute;  bottom: -700px; right: 600px;    }
+
+
+.mdsign {position: absolute;  bottom: -300px;}
+.cpsign {position: absolute;  right:   500px; bottom: -300px ;}
+.efsign {position: absolute;  bottom: -750px; left: -30px;}
+.lasign {position: absolute;  bottom: -780px; right: 500px;    }
 .absign {position: absolute;  bottom: -750px; right: -10px; }
 .dbsign {position: absolute;  bottom: -250px;right: -10px;}
 
