@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, p{color: #000; padding-bottom: 30px;}
 
 }
 
-nav{font-family: 'Fira Sans', sans-serif;
+.nav{font-family: 'Fira Sans', sans-serif;
 transform: translateX(30%);
 width: 100%;
 z-index: 0;
@@ -77,8 +77,8 @@ z-index: 0;
 
 }
 
-nav li {display: inline-block;}
-nav li a{
+.nav li {display: inline-block;}
+.nav li a{
   position: relative;
   top: 10px;
   color: #FFFFF0;
@@ -177,7 +177,12 @@ nav li a{
 
 .freccia{ position: relative; top:300px; left: 520px; }
 
+
+
+
 /*! Section */
+
+
 
 section{
 
@@ -268,6 +273,9 @@ right: -20px;
 
 
 .hero_content2{
+  
+
+
   padding: 30px;
   width: 100%;
   max-width: 1350px;
@@ -297,11 +305,43 @@ right: -20px;
 
 
 .hero_content3{
+  
+  position: relative;
+  bottom: 100px;
   padding: 30px;
   width: 100%;
   max-width: 1350px;
   margin: 0 auto;
   padding: 30px;
+  bottom: -60px;
+
+
+
+}
+
+.hero_content3 h1 {color:#FFFFF0;}
+
+
+
+/*! CONTAINER PLAYLIST*/
+
+
+.container_annate{
+
+display: flex;
+flex-wrap: wrap;
+position: relative;
+
+
+
+}
+
+
+.container_generi{
+
+display: flex;
+flex-wrap: wrap;
+position: relative;
 
 
 
@@ -309,7 +349,92 @@ right: -20px;
 
 
 
-.hero_content3 h1 {color:#FFFFF0;}
+
+
+
+
+
+
+
+.item{
+
+background: #FFFFF0 ;
+flex-basis: 20%;
+padding: 30px;
+border: 6px solid #330066;
+border-radius: 15px;
+padding: 45px;
+
+
+}
+
+
+.item_ciccio{
+
+background: #330066;
+flex-basis: 20%;
+padding: 30px;
+
+padding: 45px;
+
+
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+
+.item{
+  flex-basis: 50%;
+  padding: 30px;
+}
+
+.item_ciccio{
+  flex-basis: 50%;
+  padding: 30px;
+}
+
+
+.hero3{
+  height: 210vh;
+
+}
+
+.hero_content3 {
+  position: relative;
+ bottom: 70px;
+
+}
+
+
+}
+
+
+.item p{
+
+font-family: 'Fira Sans', sans-serif;
+text-align: center;
+color: #330066 ;
+font-weight: bold;
+font-size: 30px;
+
+
+}
+
+
+
+.item_ciccio p{
+
+  font-size: 20px;
+  
+
+  color: #FFFFF0;
+ 
+
+}
 
 
 
@@ -318,6 +443,46 @@ right: -20px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer{
+  background: #330066 ;
+
+
+
+
+
+}
+
+
+.footer_playlist{
+background: #FFFFF0
+
+
+
+}
 
 
 
